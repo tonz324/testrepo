@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+    font-family: "AmaticTony";
+    src: url("/fonts/AmaticSC-Regular.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "TangerineTony";
+    src: url("/fonts/Tangerine-Bold.ttf");
+    font-weight:800;
+    font-size:3em;
+}
+body {
+    background-color: seagreen;
+}
+#cimsor {
+color:rgb(0, 255, 42);
+font-family:"TangerineTony";
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size:10em;
+}
+.login-div input[type="email"] {
+    background-color: yellow;
+}
+.login-div input[type="password"] {
+    border:4px solid #3477ff;
+}
+.login-div input[class*="blue"] {
+    color:blue;
+}
+.login-div input[class$="red"] {
+    color:red;
+}
+.login-div button:hover {
+    background-color: chocolate;;
+}
+ol li:last-child{
+    color:green;
+}
+ol li:nth-child(2){
+    color:rgb(126, 128, 0);
+    font-weight: bold;
+}
