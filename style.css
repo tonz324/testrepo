@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: "AmaticTony";
-    src: url("/fonts/AmaticSC-Regular.ttf");
+    src: url("fonts/AmaticSC-Regular.ttf");
     font-weight: 500;
 }
 @font-face {
     font-family: "TangerineTony";
-    src: url("/fonts/Tangerine-Bold.ttf");
+    src: url("fonts/Tangerine-Bold.ttf");
     font-weight:800;
     font-size:3em;
 }
