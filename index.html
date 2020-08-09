@@ -8,166 +8,140 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="application/javascript" href="bootstrap/js/bootstrap.js">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" 
-      type="image/png" 
-      href="favicon.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">   
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <h1 id="cimsor">címsor 1</h1>
-                <h2>címsor 2</h2>
-                <input type="radio" name="java" id="" class="">opció 1
-                <input type="radio" name="java" id="" class="">opció 2
-                <input type="radio" name="java" id="" class="">opció 3
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <ol>
-                    <li>111</li>
-                    <li>222</li>
-                    <li>333</li>
-                    <li>444</li>
-                    <li>555</li>
-                </ol>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <ul>
-                    <li>123</li>
-                    <li>123</li>
-                    <li>123</li>
-                    <li>123</li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <p>hello</p>
-
+        </nav>
+        <div class="row mt-4">
+            <div class="col-full">
             </div>
         </div>
-        <form>
-            <div class="form-row">
-            <h2>Űrlap</h2>
-            <fieldset>
-
-
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="name">Név</label>
-                    <input type="text" class="form-control" name="name" id="name">
-                </div>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" name="email" value="lakos.antal@gmail.com" readonly id="email">
-                </div>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="megjegyzes">Megjegyzés</label>
-                    <input type="textarea" class="form-control" name="megj" id="megjegyzes" value="ird ide a megjegyzést">
-                </div>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="chkbox">elfogadom</label>
-                    <input type="checkbox" class="form-control" name="chkbox" id="chkbox">
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Extra feltét</legend>
-                <span>Extra feltét</span>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="semmi">semmi</label>
-                    <input checked type="checkbox" name="semmi" class="form-control" id="semmi2">
-                </div>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="sajt">sajt</label>
-                    <input type="checkbox" name="sajt" id="sajt" class="form-control">
-                </div>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="duplasajt">supla sajt</label>
-                    <input type="checkbox" name="duplasajt" id="duplasajt" class="form-control">
-                </div>
-                <div class="form-group col-md-6 col-lg-4 col-xl-12">
-                    <label for="bacon">bacon</label>
-                    <input type="checkbox" name="bacon" id="bacon2" class="form-control">
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Extra feltét 2</legend>
-                <span>Extra feltét 2</span>
-                <div class="input">
-                    <label for="semmi">semmi</label>
-                    <input checked type="radio" name="extra" id="semmi">
-                </div>
-                <div class="input">
-                    <label for="sajt">sajt</label>
-                    <input type="radio" name="extra" id="sajt2">
-                </div>
-                <div class="input">
-                    <label for="duplasajt">supla sajt</label>
-                    <input type="radio" name="extra" id="duplasajt2">
-                </div>
-                <div class="input">
-                    <label for="bacon">bacon</label>
-                    <input type="radio" name="extra" id="bacon">
-                </div>
-            </fieldset>
-            <button type="submit" class="btn btn-primary">Elküld</button>
-        </div>
-        </form>
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-2"></div>
             <div class="col-8">
-                <table class="table table-dark table-striped table-bordered table-hover">
+                <form>
+                    <div class="form-row">
+                        <h2>Űrlap</h2>
+                        <fieldset>
+
+
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="name">Név</label>
+                                <input type="text" class="form-control" name="name" id="name">
+                            </div>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" value="lakos.antal@gmail.com"
+                                    readonly id="email">
+                            </div>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="megjegyzes">Megjegyzés</label>
+                                <input type="textarea" class="form-control" name="megj" id="megjegyzes"
+                                    value="ird ide a megjegyzést">
+                            </div>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="chkbox">elfogadom</label>
+                                <input type="checkbox" class="form-control" name="chkbox" id="chkbox">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Extra feltét</legend>
+                            <span>Extra feltét</span>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="semmi">semmi</label>
+                                <input checked type="checkbox" name="semmi" class="form-control" id="semmi2">
+                            </div>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="sajt">sajt</label>
+                                <input type="checkbox" name="sajt" id="sajt" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="duplasajt">supla sajt</label>
+                                <input type="checkbox" name="duplasajt" id="duplasajt" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6 col-lg-4 col-xl-4">
+                                <label for="bacon">bacon</label>
+                                <input type="checkbox" name="bacon" id="bacon2" class="form-control">
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Extra feltét 2</legend>
+                            <span>Extra feltét 2</span>
+                            <div class="input">
+                                <label for="semmi">semmi</label>
+                                <input checked type="radio" name="extra" id="semmi">
+                            </div>
+                            <div class="input">
+                                <label for="sajt">sajt</label>
+                                <input type="radio" name="extra" id="sajt2">
+                            </div>
+                            <div class="input">
+                                <label for="duplasajt">supla sajt</label>
+                                <input type="radio" name="extra" id="duplasajt2">
+                            </div>
+                            <div class="input">
+                                <label for="bacon">bacon</label>
+                                <input type="radio" name="extra" id="bacon">
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn btn-primary">Elküld</button>
+                    </div>
+                </form>
+
+                <table class="table table-dark table-striped table-bordered table-hover mt-4">
                     <thead>
                         <th>12</th>
                         <th>34</th>
                         <th>56</th>
                     </thead>
                     <tbody>
-                        <tr class="table-success">
+                        <tr class="">
                             <td>asdfadsfa</td>
                             <td>asdfasdf</td>
                             <td>
                                 <div class="btn-group">
-                                <button class="btn btn-info"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                    <button class="btn btn-info"><i class="fas fa-edit"></i></button>
+                                    <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                                 </div>
 
                             </td>
@@ -175,18 +149,21 @@
                         <tr>
                             <td>asdfasdfa</td>
                             <td>asdfasdfa</td>
-                            <td>   <div class="btn-group">
-                                <button class="btn btn-info"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-info"><i class="fas fa-edit"></i></button>
+                                    <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
                                 </div>
                         </tr>
-                        <tr class="table-danger">
+                        <tr class="">
                             <td>asdfasdfasdf</td>
                             <td>asdfasdfasdf</td>
-                            <td>   <div class="btn-group">
-                                <button class="btn btn-info"><i class="fas fa-edit"></i></button>
-                                <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
-                                </div></td>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-info"><i class="fas fa-edit"></i></button>
+                                    <button class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                                </div>
+                            </td>
 
                         </tr>
                     </tbody>
@@ -200,19 +177,7 @@
 
             <div class="col-2"></div>
         </div>
-        <div class="login-div">
-            <div class="form-group">
-                <label for="texty">texty</label>
-                <input type="email" class="form-control red" name="texty" id="">
-            </div>
-            <div class="form-group">
-                <label for="andy">andy</label>
-                <input type="password" class="form-control blue" name="andy" id="andy">
-            </div>
-            <div class="form-group">
-                <button type="submit">küldés</button>
-            </div>
-        </div>
+
     </div>
 </body>
 
